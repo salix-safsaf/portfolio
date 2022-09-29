@@ -1,0 +1,74 @@
+/* use em in queries */
+/* 1rem = 1em = 16px */
+
+/* ------------------------ */
+/* BELOW 1200px (Landscape Tablets) */
+/* ------------------------ */
+
+/* 1200px/16 = 75em */
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px */
+    font-size: 56.25%;
+  }
+}
+
+/* ------------------------ */
+/* BELOW 955px (Tablets) */
+/* ------------------------ */
+
+/* 955px/16 = 59.6em */
+
+@media (max-width: 60em) {
+  html {
+    /* 7px / 16px = 43.75% */
+    font-size: 45%;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  html {
+    font-size: 40%;
+  }
+  .game-name {
+    font-size: 3.6rem;
+  }
+  .end-note {
+    padding: 15rem 0 10rem 0;
+  }
+  .game {
+    padding-top: 10rem;
+  }
+  .between {
+    padding-top: 15rem;
+  }
+}
+
+/**************************/
+/* BELOW 472px (Phones) */
+/**************************/
+
+/* 472px/16 = 44.3em */
+
+@media (max-width: 29.5em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+/**************************/
+/* BELOW 416px (Phones) */
+/**************************/
+
+/* 416px/16 = 26em */
+
+@media (max-width: 26em) {
+  html {
+    font-size: 30%;
+  }
+}

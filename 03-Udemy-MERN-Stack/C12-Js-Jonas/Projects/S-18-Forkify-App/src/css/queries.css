@@ -1,0 +1,84 @@
+/* use em in queries */
+/* 1rem = 1em = 16px */
+
+/* ------------------------ */
+/* BELOW 1200px (Landscape Tablets) */
+/* ------------------------ */
+
+/* 1200px/16 = 75em */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* ------------------------ */
+/* BELOW 1020px (Tablets) */
+/* ------------------------ */
+
+@media (max-width: 63em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* ------------------------ */
+/* BELOW 900px (Tablets) */
+/* ------------------------ */
+
+@media (max-width: 55em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/* ------------------------ */
+/* BELOW 771px (Tablets) */
+/* ------------------------ */
+
+@media (max-width: 49em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/* ------------------------ */
+/* BELOW 650px (Tablets) */
+/* ------------------------ */
+
+@media (max-width: 40em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/**************************/
+/* BELOW 560px (Phones) */
+/**************************/
+
+@media (max-width: 35em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/**************************/
+/* BELOW 472px (Phones) */
+/**************************/
+
+@media (max-width: 29.5em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+/**************************/
+/* BELOW 416px (Phones) */
+/**************************/
+
+@media (max-width: 26em) {
+  html {
+    font-size: 30%;
+  }
+}

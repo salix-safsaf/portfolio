@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  border: 5px solid black;
+  padding: 15px;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(239, 239, 239);
+}
+
+.free {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+}
+
+a:hover {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+li {
+  list-style: square;
+}
+
+button {
+  color: white;
+  background-color: black;
+}
+
+button:hover {
+  color: black;
+  background-color: wheat;
+}

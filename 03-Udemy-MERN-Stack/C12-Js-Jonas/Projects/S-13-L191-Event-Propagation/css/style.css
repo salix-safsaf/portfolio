@@ -1,0 +1,77 @@
+:root {
+  --color-primary: #5ec576;
+  --color-secondary: #ffcb03;
+  --color-tertiary: #ff585f;
+  --color-primary-darker: #4bbb7d;
+  --color-secondary-darker: #ffbb00;
+  --color-tertiary-darker: #fd424b;
+  --color-primary-opacity: #5ec5763a;
+  --color-secondary-opacity: #ffcd0331;
+  --color-tertiary-opacity: #ff58602d;
+  --gradient-primary: linear-gradient(to top left, #39b385, #9be15d);
+  --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  margin: auto;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #f3f3f3;
+  height: 10rem;
+}
+
+div {
+  padding: 5rem;
+}
+
+.div--1 {
+  background-color: #777;
+}
+
+.div--2 {
+  background-color: #555;
+}
+
+.div--3 {
+  background-color: #333;
+}
+
+.div--4 {
+  background-color: #111;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: inherit;
+  font-weight: 600;
+  padding: 3rem;
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background-color: white;
+  font-size: 3rem;
+  font-family: inherit;
+  font-weight: 500;
+  border: none;
+  padding: 1rem;
+  border-radius: 50rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}

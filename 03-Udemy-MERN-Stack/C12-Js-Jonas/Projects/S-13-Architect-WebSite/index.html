@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Architect</title>
+
+    <!-- FIX: Mobile ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <img
+        src="img/logo.png"
+        alt="Architect logo"
+        class="nav__logo logo"
+        id="logo"
+      />
+
+      <nav class="nav main-nav">
+        <ul class="nav__links main-nav-list">
+          <li class="nav__item main-nav-link">
+            <a class="nav__link mobile-link" href="#section--1"
+              >Characteristics</a
+            >
+          </li>
+          <li class="nav__item main-nav-link">
+            <a class="nav__link mobile-link" href="#section--2">Styles</a>
+          </li>
+          <li class="nav__item main-nav-link">
+            <a class="nav__link mobile-link" href="#section--3">Samples</a>
+          </li>
+          <li class="nav__item main-nav-link">
+            <a
+              class="nav__link mobile-link nav__link--btn btn--show-modal"
+              href="#"
+              >Join Us!</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- FIX: icon-mobile-nav -->
+      <button class="nav btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <section class="header-main">
+      <!-- Section: Header__title. -->
+      <div class="header__title">
+        <h1>
+          When
+          <!-- Green highlight effect -->
+          <span class="highlight">ART</span>
+          meets<br />
+          <span class="highlight">Architecture</span>
+        </h1>
+        <h4>Creating spaces that inspire you to be yourself.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="img/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </section>
+
+    <!-- Section: 1/ CHARACTERISTICS. -->
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Characteristics</h2>
+        <h3 class="section__header">
+          The fundamental modern architecture characteristics.
+        </h3>
+      </div>
+
+      <div class="features">
+        <!-- Note: feature 1. -->
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <p class="numbers">1</p>
+          </div>
+          <h5 class="features__header">Open space plans</h5>
+          <p>
+            One of the hardest decorating challenges in open concept decorating
+            is creating a cohesive design through the connected spaces. Whether
+            your style is subtle or bold, patterns and textures add interest to
+            your home and are an important part of your design.
+          </p>
+        </div>
+
+        <!-- Note: feature 2. -->
+        <div class="features__feature">
+          <div class="features__icon">
+            <p class="numbers">2</p>
+          </div>
+          <h5 class="features__header">Simple design</h5>
+          <p>
+            Simple design is an interior design style characterized by a
+            monochromatic color palette, clean lines, minimalism, natural
+            materials, and natural light.
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <!-- Note: feature 3. -->
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <p class="numbers">3</p>
+          </div>
+          <h5 class="features__header">Abundance of natural light</h5>
+          <p>
+            Embracing an abundance of natural light in your home is one of the
+            best ways to bring the beauty of outdoors into one of the most
+            personal rooms in your home, that will having you craving the glow
+            of daylight.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: 2/ STYLES. -->
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Styles</h2>
+        <h3 class="section__header">
+          Everything as simple as possible, but no simpler.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <!-- Note: tab-container -->
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>ArtDeco
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Bauhaus
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>International
+          </button>
+        </div>
+
+        <!-- Note: ArtDeco -->
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <ion-icon class="ion-icon" name="hammer-outline"></ion-icon>
+          </div>
+          <h5 class="operations__header">A stepped contour and sharp edges.</h5>
+          <p>
+            One of the earliest of the modern architecture styles, Art Deco is
+            easy to spot. Structures designed in this style are characterized by
+            vertical sections with a stepped contour and sharp edges consisting
+            mainly of rectangular sections with curved shapes strategically
+            placed for ornamentation.
+          </p>
+        </div>
+
+        <!-- Note: Bauhaus -->
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <ion-icon class="ion-icon" name="leaf-outline"></ion-icon>
+          </div>
+          <h5 class="operations__header">The simplicity and utility rises.</h5>
+          <p>
+            Bauhaus, an inverted form of the German word for housebuilding,
+            hausbau, was a school for architecture, design, and art. The Bauhaus
+            style of architecture emphasizes functionality and the concept that
+            the artistic appeal of a structure comes from the simplicity and
+            utility of its design.
+          </p>
+        </div>
+
+        <!-- Note: International -->
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <ion-icon name="sparkles-outline"></ion-icon>
+          </div>
+          <h5 class="operations__header">ِAn overall sleek appearance.</h5>
+          <p>
+            The archetypal style of modern architecture, International was the
+            prevailing style during the twentieth century. This architecture
+            includes rectangular structure; flat surfaces and roofs; no
+            ornamentation; large interior areas; curtain walling; cantilevers;
+            glass, steel, and reinforced concrete as materials; and an overall
+            sleek appearance.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: 3/ Testimonials. -->
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Samples</h2>
+        <h3 class="section__header">
+          Architecture is the heart of designing and building.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <!-- Note: Slider imgs -->
+        <div class="slide">
+          <img value="Art Deco" src="img/img-1.jpg" alt="Photo 1" />
+        </div>
+        <div class="slide"><img src="img/img-2.jpg" alt="Photo 2" /></div>
+        <div class="slide"><img src="img/img-3.jpg" alt="Photo 3" /></div>
+
+        <!-- Note: Slider__btn -->
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <!-- Section: Sign-up. -->
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header quote">
+          Whatever Good Things We build <br />
+          End Up Building Us.
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Join ARCHITECT today!</button>
+    </section>
+
+    <!-- Section: Footer. -->
+    <footer class="footer">
+      <img src="img/icon-logo.png" alt="Logo" class="footer__logo" />
+
+      <!-- Fix: social media links -->
+      <ul class="social-links">
+        <li>
+          <a class="footer-link" href="#"
+            ><img
+              class="social-icon"
+              src="img/social/facebook-svgrepo-com.svg"
+              alt="facebook"
+          /></a>
+        </li>
+        <li>
+          <a class="footer-link" href="#"
+            ><img
+              class="social-icon"
+              src="img/social/instagram-svgrepo-com.svg"
+              alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a class="footer-link" href="#"
+            ><img
+              class="social-icon"
+              src="img/social/telegram-svgrepo-com.svg"
+              alt="telegram"
+              title="telegram"
+          /></a>
+        </li>
+      </ul>
+
+      <p class="footer__copyright">
+        Inspired by (Bankist website) project<br />
+        &copy; The Complete JavaScript Course 2022, by: Jonas Schmedtmann
+      </p>
+      <p class="footer__copyright">
+        Kal-Bunyan Al-Marsos Internship | <span class="year">3000</span>
+      </p>
+    </footer>
+
+    <!-- Section: Modal hidden. -->
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Join &nbsp; <span class="highlight">ARCHITECT</span> &nbsp;today <br />
+        in just &nbsp; <span class="highlight">5 minutes</span>!
+      </h2>
+      <form name="architect-sign-up" netlify class="modal__form">
+        <label>First Name</label>
+        <input name="First Name" type="text" />
+        <label>Last Name</label>
+        <input name="Last Name" type="text" />
+        <label>Email Address</label>
+        <input name="email" type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

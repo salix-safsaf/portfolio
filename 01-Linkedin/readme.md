@@ -1,0 +1,45 @@
+# LinkedIn Learning Courses: (10 Courses)
+
+## 1- Programming-foundation-Fundamentals
+
+- Gain the core knowledge to begin programming in any language. In this course, instructor Annyce Davis uses Python to explore the core concepts and structure of programming languages and helps you grasp what’s going on under the hood. After going over basic statements and expressions in Python, Annyce explores strings, variables, and conditional code which are common topics in all programming languages. She also shows how to work with different kinds of data and troubleshoot a variety of errors. Along the way, she compares how code is written in several different languages and provides guidance on the criteria to use when choosing a programming language. Upon wrapping up this course, you’ll have the knowledge you need to continue your coding journey in whichever language piques your interest.
+
+## 2- Programming-foundations-Beyond-fundamentals
+
+- Continue your coding journey as you dive deeper into the foundational concepts, practices, and terminology of programming. In this installment of the Programming Foundations series, instructor Sasha Vodnik goes beyond the basics, using Python to tackle a variety of intermediate and advanced concepts and skills you can add to your programming repertoire. Sasha covers creating and working with collections and loops, combining and manipulating strings, and using external code—all of which are critical concepts, regardless of which programming language you end up working with. He goes over several essential processes, such as choosing a code style and debugging. Plus, he digs into a few more advanced concepts, including memory management and multithreading.
+
+## 3- Programming Foundations: Object-Oriented Design
+
+- All good software starts with a great design. Object-oriented design helps developers plan applications before they write a single line of code, and break down ideas into reusable and maintainable components. This course focuses on the foundational concepts, teaching them in a fun, interactive way to help you quickly develop your skills. Tag team Olivia and Barron Stone introduce you to the concepts and terms—objects, classes, abstraction, inheritance, and more—that you need to get started. They then show how to take the requirements for an app, identify use cases, and map out classes using Universal Modeling Language (UML). The final design can then be translated into code using one of the many popular object-oriented programming languages, such as Java, C#, Ruby, or Python.
+
+## 4- Programming Foundations: Data Structures
+
+- Once you get past simple programs with one or two variables, you'll use data structures to store the values in your applications. Data structures are like containers—there's one for every kind of data. While structures like arrays and queues are sometimes taken for granted, a deeper understanding is vital for any programmer who wants to know what's going on "under the hood" and understand how the choices they've made impact the performance and efficiency of their applications. In this course, Kathryn Hodge provides an in-depth overview of the most essential data structures for modern programming. Starting with simple ways of grouping data, like arrays and structs, Kathryn gradually introduces more complex data structures, such as linked lists, stacks and queues, hash tables, and trees and graphs. Each lesson is accompanied by a real-world, practical example that shows the data structures in action. When you're finished with the course, you'll have a clear understanding of data structures and understand how to use them—in whatever language you're programming in: C#, Swift, JavaScript, Java, Python, and more.
+
+## 5- Programming Foundations: Algorithms
+
+- Algorithms are the universal building blocks of programming. They power the software you use every day, whether it's a spreadsheet, a social network, or a driving assistant. Algorithms offer a way to think about programming challenges in plain English, before they are translated into a specific language like C# or JavaScript. In this course, author and developer Joe Marini explains some of the most popular and useful algorithms for searching and sorting information, working with techniques like recursion, and understanding common data structures. He also discusses the performance implications of different algorithms and how to evaluate the performance of a given algorithm. Each algorithm is shown in practice in Python, but the lessons can be applied to any programming language.
+
+## 6- Programming Foundations: Design Patterns
+
+- Design patterns are reusable solutions that solve the challenges software developers face over and over again. Rather than reinventing the wheel, learn how to make use of these proven and tested patterns that will make your software more flexible and resilient to change. This course introduces you to design patterns and takes you through several of the most used object-oriented patterns. Elisabeth Robson and Eric Freeman, coauthors of Head First Design Patterns, join forces to provide an overview of each pattern and examples of the pattern in action. Featured design patterns include the Strategy, Adapter, Observer, and Decorator patterns. Elisabeth and Eric lend these concepts a real-world context by providing code demos in Java, with the occasional example in Python and JavaScript.
+
+## 7- Programming-Foundations-Databases
+
+- Once you get beyond basic programming, you'll need a database. Databases provide a consistent, organized structure for storing and retrieving large amounts of data. They allow programmers to build more complex applications that can take orders, process payments, make recommendations, authenticate users, and more. This course provides the foundation you need to get started in database programming. Explore the terminology: normal forms, ACID and CRUD, referential integrity, transactions, records, and tables. Learn what role keys and unique values play in a relational model. Discover how to design the best system to contain your data, starting with the tables and relationships at the core of your database. Find out how to write queries to extract the data you need, and how to juggle the different demands of storage, access, performance, and security. Instructor Scott Simpson provides practical examples and clear explanations that will help you design databases that can withstand the needs of your applications, your data, and your users.
+
+## 8- Programming-Foundations-APIs-and-Web-Services
+
+- Web services have been at the core of modern application architectures for many years. Regardless of what language or platform a developer is using, grasping how web services work and how to implement them are critical skills. In this course, instructor Kesha Williams steps through how to work with several popular technologies to build web services. Kesha begins by laying the groundwork for the course, explaining what web services are and the benefits they provide. She then offers a comparison of several popular web service technologies—REST, SOAP, and GraphQL—describing each technology's messaging formats in detail, along with examples of coding in several languages using a variety of server- and client-based implementations. Plus, get coding excerpts in Java, Python, and Swift.
+
+## 9- Programming Foundations: Software Testing/QA
+
+- Quality assurance (QA) engineering can mean many different things to different people. In this course, learn about QA practices within the context of a software engineering project. Instructor Meaghan Lewis demonstrates the different kinds of testing QA focuses on and how QA fits into the software development life cycle (SDLC). Meaghan explores the areas you'll likely want to test and continuously monitor to ensure increasing improvements to your product. Plus, she goes over some of the mechanisms used to communicate the overall health of a product. Upon wrapping up this course, you'll be able to look at whatever you're working on, think critically about how the pieces fit together, and identify ways to help your team meet quality goals with every release.
+
+## 10- Learning GitHub
+
+- GitHub is the industry-standard tool for collaborating on and sharing code. It’s popular among software developers, project managers, designers, and students for its flexibility and control. This course introduces GitHub and Git, the version control system that GitHub is built upon. Instructor Aaron Stewart, a training content specialist at GitHub, explains the benefits of version control, how to navigate GitHub and the command line, how GitHub and Git are related, and the best practices for communication and collaboration on GitHub. Aaron also reviews the most common tasks, such as branching, commits, and pull requests, and shows you how to create a simple local project and move it to GitHub to share with your team. Once you have completed the course, you should be able to immediately start using Git and GitHub to manage your own code.
+
+---
+
+<br>[Preview Certificate](https://najwan-portfolio.netlify.app/)

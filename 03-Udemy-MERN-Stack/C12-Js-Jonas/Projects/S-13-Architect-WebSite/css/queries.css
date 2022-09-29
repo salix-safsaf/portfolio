@@ -1,0 +1,186 @@
+/* use em in queries */
+/* 1rem = 1em = 16px */
+
+/* ------------------------ */
+/* BELOW 1200px (Landscape Tablets) */
+/* ------------------------ */
+
+/* 1200px/16 = 75em */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* ------------------------ */
+/* BELOW 1020px (Tablets) */
+/* ------------------------ */
+
+@media (max-width: 63em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* ------------------------ */
+/* BELOW 900px (Tablets) */
+/* ------------------------ */
+
+@media (max-width: 55em) {
+  html {
+    font-size: 45%;
+  }
+
+  .header__title {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    align-items: center;
+  }
+
+  .header__img {
+    width: 80%;
+    grid-column: 1;
+    grid-row: 1;
+    transform: translateY(0);
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .features__feature {
+    width: 100%;
+  }
+
+  .features__feature:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .features__feature:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .features__img {
+    border-radius: 7%;
+  }
+
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  /* FIX: MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: flex;
+    z-index: 9999;
+  }
+
+  .btn-mobile-nav.sticky {
+    position: fixed;
+    display: flex;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    z-index: 9995;
+
+    /* 1- hide nav */
+    opacity: 0;
+
+    /* 2- un accessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3- hide from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name='close-outline'] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+}
+
+/* ------------------------ */
+/* BELOW 771px (Tablets) */
+/* ------------------------ */
+
+@media (max-width: 49em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/* ------------------------ */
+/* BELOW 650px (Tablets) */
+/* ------------------------ */
+
+@media (max-width: 40em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/**************************/
+/* BELOW 560px (Phones) */
+/**************************/
+
+@media (max-width: 35em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/**************************/
+/* BELOW 472px (Phones) */
+/**************************/
+
+@media (max-width: 29.5em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+/**************************/
+/* BELOW 416px (Phones) */
+/**************************/
+
+@media (max-width: 26em) {
+  html {
+    font-size: 30%;
+  }
+}

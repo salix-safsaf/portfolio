@@ -1,0 +1,88 @@
+/* use em in queries */
+/* 1rem = 1em = 16px */
+
+/* ------------------------ */
+/* BELOW 1200px (Landscape Tablets) */
+/* ------------------------ */
+
+@media (max-width: 75em) {
+}
+
+/* ------------------------ */
+/* BELOW 1020px (Tablets) */
+/* ------------------------ */
+
+@media (max-width: 63em) {
+}
+
+/* ------------------------ */
+/* BELOW 900px (Tablets) */
+/* ------------------------ */
+
+@media (max-width: 55em) {
+}
+
+/* ------------------------ */
+/* BELOW 771px (Tablets) */
+/* ------------------------ */
+
+@media (max-width: 49em) {
+}
+
+/* ------------------------ */
+/* BELOW 650px (Tablets) */
+/* ------------------------ */
+
+@media (max-width: 40em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 560px (Phones) */
+/**************************/
+
+@media (max-width: 35em) {
+  html {
+    font-size: 50%;
+  }
+  .btn {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+}
+
+/**************************/
+/* BELOW 472px (Phones) */
+/**************************/
+
+@media (max-width: 29.5em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+/**************************/
+/* BELOW 416px (Phones) */
+/**************************/
+
+@media (max-width: 26em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 360px (Phones) */
+/**************************/
+
+@media (max-width: 21em) {
+  html {
+    font-size: 40%;
+  }
+  .btn {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
