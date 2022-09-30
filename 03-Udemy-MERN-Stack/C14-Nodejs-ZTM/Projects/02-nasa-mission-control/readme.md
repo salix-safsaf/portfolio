@@ -18,3 +18,4 @@ I contacted the lecturer after researching and not knowing the cause of the prob
 :warning: Clarification:
 Because of a problem with the NASA project..
 I just listened to the course without an application, in parts 12 to 17.
+I will listen to the course again, God willing, while trying to fix the problem in the project.
