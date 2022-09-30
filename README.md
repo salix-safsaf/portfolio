@@ -104,7 +104,7 @@ Kalbonyan Elmarsos is an Egyptian non-profit organization whose goal is to help 
 
 ## Learn Serverless
 
-![0%](https://progress-bar.dev/100/?title=Done)
+![0%](https://progress-bar.dev/30/?title=Done)
 <br />
 
 - [x] 17 - [Serverless Stack (SST)](./05-SST-Project) :warning:
