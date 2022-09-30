@@ -14,3 +14,8 @@ I contacted the lecturer after researching and not knowing the cause of the prob
 <img src="https://i.ibb.co/jZv98nH/1.png" width= 300 alt="1" border="0" /> 
 <img src="https://i.ibb.co/RC50KJN/2.png" width= 300 alt="2" border="0" />
 <img src="https://i.ibb.co/c3kK0ZB/3.png" width= 300 alt="3" border="0" />
+
+:warning: Clarification:
+Because of a problem with the NASA project..
+I just listened to the course without an application, in parts 12 to 17.
+I will listen to the course again, God willing, while trying to fix the problem in the project.
