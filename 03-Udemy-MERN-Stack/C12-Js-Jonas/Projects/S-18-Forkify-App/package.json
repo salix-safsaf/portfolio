@@ -11,7 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
-    "parcel": "^2.7.0"
+    "parcel": "^2.16.4"
   },
   "dependencies": {
     "core-js": "^3.24.1",
